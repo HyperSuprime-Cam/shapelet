@@ -36,6 +36,7 @@ Python interface to lsst::shapelet classes and functions
 #   include "lsst/afw/detection.h"
 #   include "lsst/afw/image.h"
 #   include "lsst/afw/cameraGeom.h"
+#   include "lsst/afw/geom/polygon.h"
 #   include "lsst/pex/logging.h"
 #   include "lsst/shapelet.h"
 %}
