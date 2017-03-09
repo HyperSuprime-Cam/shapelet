@@ -32,8 +32,8 @@ using namespace pybind11::literals;
 namespace lsst {
 namespace shapelet {
 
-PYBIND11_PLUGIN(_basisEvaluator) {
-    py::module mod("_basisEvaluator");
+PYBIND11_PLUGIN(basisEvaluator) {
+    py::module mod("basisEvaluator");
 
     if (_import_array() < 0) {
         PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import");
@@ -88,5 +88,6 @@ PYBIND11_PLUGIN(_basisEvaluator) {
 
     return mod.ptr();
 }
-}
-}  // lsst::shapelet
+
+}  // shapelet
+}  // lsst
