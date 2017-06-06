@@ -1,4 +1,4 @@
-from __future__ import absolute_import
+from __future__ import absolute_import, division, print_function
 from builtins import range
 from builtins import object
 #
@@ -22,6 +22,7 @@ from builtins import object
 # the GNU General Public License along with this program.  If not,
 # see <http://www.lsstcorp.org/LegalNotices/>.
 #
+from .version import *
 
 from .shapeletLib import *
 from . import tractor
